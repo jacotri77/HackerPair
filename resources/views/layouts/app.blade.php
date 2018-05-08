@@ -3,6 +3,8 @@
   <head>
   	<meta charset="UTF-8">
   	<title>Welcome to HackerPair</title>
+  	{!! HTML::style('css/app.css') !!}
+  	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
   	<div>
